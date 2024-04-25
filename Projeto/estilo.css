@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: ;
+    width: 100vw;
+    height: 100vh; 
+    font-family: 'Roboto', sans-serif  ;
+}
+
+.conteiner {
+    background: #fafafa;
+    width: 100% ;
+    height: 700px;
+
+    display: grid;
+    grid-template-areas: "l r" "f f";
+    justify-content: center;
+    align-content: center;
+}
+ 
+.nav-left{
+grid-area: l;
+
+min-width: 420px;
+min-height: 615;
+}
+
+.nav-right{
+grid-area: r;
+
+min-width: 420px;
+min-height: 615px;
+}
+
+.footer{
+
+grid-area: f;
+
+justify-self: center;
+text-align: center;
+max-width: 800px;
+
+z-index: 1;
+font-size: 13px;
+color: #8e8e8e;
+}
+
+.nav-left .mobile {
+    background-image: url(https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk);
+    min-width: 454px;
+    min-height: 618px;
+}
+
+.nav-left img {
+    position: relative;
+    top: 20px;
+    left: 150px;
+    width: 260px;
+    height: 550px;
+
+}
+
+.footer .links {
+    list-style: none;
+    color: #8e8e8e;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+
+}
+
+.footer li a {
+    color: #8e8e8e;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 5px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    margin-top: 20px;
+    
+}
+
+.box-footer {
+    padding: 25px;
+    max-width: 250px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box-footer img {
+    max-width: 115px;
+    height: 40px;
+    padding: 10px 0px
+}
+
+.link-azul {
+    color: #008eff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.logo-instagram {
+    width: 175px;
+    padding: 25px;
+
+}
+
+.nav-right input {
+    padding: 5px 15px;
+    font-size: 12px;
+    min-width: 200px;
+    margin-bottom: 5px;
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    color: #8e8e8e;
+    border-radius: 5px;
+}
+
+.nav-right button {
+    margin-top: 25px;
+    margin-bottom: 15PX;
+
+    border-radius: 5px;
+
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: 700;
+    min-width: 230px;
+
+    border: 0;
+    color: #fff;
+    background: #A9dfff;
+}
+
+.nav-right p {
+    color: #8e8e8e;
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.nav-right p::before {
+ content: '---------------';
+ padding: 10px;
+ position: relative;
+ top: -5px;
+}
+
+
+.nav-right p::after {
+    content: '---------------';
+    padding: 10px;
+    position: relative;
+    top: -5px;
+   }
+
+.nav-right .entrar-face {
+    color: #374c89;
+    font-weight: 700;
+}   
+
+.nav-right .azul {
+    color: #374c89;
+    font-size: 12px;
+}
+   
+ 
